@@ -7,7 +7,7 @@ export const CardUser = ({info, setUsers}) => {
 
     const borrarUsuario = async (id) => {
         try {
-            const resp = await axios.delete(`http://backendpruebamichaelvl.herokuapp.com/users/${id}`)
+            const resp = await axios.delete(`https://backendpruebamichaelvl.herokuapp.com/users/${id}`)
             setUsers(resp.data)
         } catch (error) {
             
