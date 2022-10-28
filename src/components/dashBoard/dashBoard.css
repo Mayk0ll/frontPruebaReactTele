@@ -1,0 +1,7 @@
+.contenedorCerrarSesion{
+    display: flex;
+    gap: 20px;
+}
+.btnCerrarSesion{
+    padding:  0 10px;
+}

@@ -1,0 +1,6 @@
+.encabezado{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    border: 3px solid black;
+    margin: 10px 0;
+}
