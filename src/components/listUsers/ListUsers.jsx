@@ -8,7 +8,8 @@ export const ListUsers = () => {
     const [users, setUsers] = useState([]) 
 
     const getUsers = async () => {
-        const resp = await axios.get('http://backendpruebamichaelvl.herokuapp.com/users')
+        
+        const resp = await axios.get('https://backendpruebamichaelvl.herokuapp.com/users')
         setUsers( resp.data )
     }
 
